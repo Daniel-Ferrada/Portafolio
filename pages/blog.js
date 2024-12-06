@@ -1,3 +1,9 @@
-const blog = () => <h1> blog </h1>
+import Layout from "../components/Layaout";
 
-export default blog
+const blog = () => (
+  <Layout>
+    <h1> blog </h1>
+  </Layout>
+);
+
+export default blog;
